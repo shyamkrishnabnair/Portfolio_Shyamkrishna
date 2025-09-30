@@ -1,4 +1,6 @@
+import Gallery from "@/components/Gallery";
 import Navbar from "@/components/Navbar";
+import Posters from "@/components/Posters";
 import Image from "next/image";
 
 
@@ -66,9 +68,15 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="works text-[#00085E]">
 
-          
+        <div className="works text-[#00085E]">
+          <p className="text-[3rem]">
+            Works
+          </p>
+          <p className="text-[1rem]">
+            Check out what i do
+          </p>
+          <Posters />
         </div>
 
     
