@@ -19,7 +19,7 @@ export default function Home() {
 
           {/* Bottom left */}
           <div>
-            <p>
+            <p className="text-[3rem] font-thin">
               Final year undergrad in data science who loves to make stuff
             </p>
           </div>

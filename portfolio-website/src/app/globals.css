@@ -25,4 +25,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: url('/Mandala_bg.jpeg') center/cover no-repeat;
+  mix-blend-mode: multiply;
+  opacity: 0.25;
+  z-index: -1; /* stays behind content */
+}
+
 
