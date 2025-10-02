@@ -69,16 +69,34 @@ export default function Home() {
         </div>
 
 
-        <div className="works text-[#00085E]">
+        <div className="works text-[#00085E] pb-20">
           <p className="text-[3rem]">
             Works
           </p>
           <p className="text-[1rem]">
             Check out what i do
           </p>
+          <Gallery />
           <Posters />
         </div>
 
+        
+
+  {/* <div
+    className="flex h-screen w-full flex-col items-center justify-center rounded-lg p-6 dark:bg-slate-900"
+  >
+    <div className="grid h-full w-full grid-cols-10 grid-rows-5 gap-4 ">
+      <div className="col-span-4 row-span-3 rounded-3xl bg-orange-400 flex justify-center items-center">Hello</div>
+      <div className="col-span-5 row-span-1 rounded-3xl bg-orange-400"></div>
+      <div className="col-span-1 row-span-1 rounded-3xl bg-orange-400"></div>
+      <div className="col-span-2 row-span-2 rounded-3xl bg-orange-400"></div>
+      <div className="col-span-4 row-span-2 rounded-3xl bg-orange-400"></div>
+      <div className="col-span-4 row-span-2 rounded-3xl bg-orange-400"></div>
+      <div className="col-span-6 row-span-2 rounded-3xl bg-orange-400"></div>
+    </div>
+  </div> */}
+
+    
     
       </main>
     </>
